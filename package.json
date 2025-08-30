@@ -3,9 +3,7 @@
   "description": "Organize your package.json",
   "version": "2.4.0",
   "author": {
-    "email": "zac@zacanger.com",
-    "name": "Zac Anger",
-    "url": "https://zacanger.com"
+    "name": "Autumn Z"
   },
   "license": "MIT",
   "main": "index.js",
@@ -19,12 +17,12 @@
     "preversion": "npm t",
     "test": "node index.js && standard --fix"
   },
-  "homepage": "https://github.com/zacanger/sortpack#readme",
+  "homepage": "https://github.com/zautumnz/sortpack#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zacanger/sortpack.git"
+    "url": "https://github.com/zautumnz/sortpack.git"
   },
-  "bugs": "https://github.com/zacanger/sortpack/issues",
+  "bugs": "https://github.com/zautumnz/sortpack/issues",
   "keywords": [
     "cleanup",
     "fixpack",
@@ -37,6 +35,6 @@
     "node": ">=10.0.0"
   },
   "devDependencies": {
-    "standard": "17.1.0"
+    "standard": "17.1.2"
   }
 }
