@@ -1,7 +1,7 @@
 {
   "name": "sortpack",
   "description": "Organize your package.json",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "type": "module",
   "author": {
     "name": "Autumn Z"
