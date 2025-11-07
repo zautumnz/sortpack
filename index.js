@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
-const fs = require('fs')
+import * as fs from 'node:fs'
 
 const order = [
   'name',
   'description',
   'version',
   'private',
+  'type',
   'author',
   'contributors',
   'funding',
@@ -99,7 +100,7 @@ const parseArgs = (argv) => {
 
 const main = () => {
   const opts = parseArgs(process.argv.slice(2))
-  const obj = require(process.cwd() + '/package.json')
+  const obj = JSON.parse(fs.readFileSync(process.cwd() + '/package.json'))
   const fixed = sortPackage(obj)
   writePackage(fixed, opts.indent)
 }

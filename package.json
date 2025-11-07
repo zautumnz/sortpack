@@ -2,6 +2,7 @@
   "name": "sortpack",
   "description": "Organize your package.json",
   "version": "3.0.0",
+  "type": "module",
   "author": {
     "name": "Autumn Z"
   },
@@ -32,7 +33,7 @@
     "sort"
   ],
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=24.0.0"
   },
   "devDependencies": {
     "standard": "17.1.2"
